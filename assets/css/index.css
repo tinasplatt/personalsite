@@ -1,0 +1,57 @@
+header {
+	text-align: center;
+}
+#logo-c {
+	
+}
+#logo-j {
+	position:relative;
+	top:50px;
+	left:-20px;
+
+}
+#enter-button {
+	opacity: 0;
+}
+#wordmark {
+	opacity:0;
+	font-weight: 700;
+	letter-spacing: 5px;
+	position: relative; 
+	top:-95px;
+}
+#tagline {
+	position: relative; 
+	top:-115px;
+	opacity:0;
+	letter-spacing: 5px
+}
+.logo {
+	margin-top:100px;
+}
+.logo img {
+	height:150px;
+
+
+}
+#enter-button {
+	background: none;
+	padding:15px;
+	box-shadow: 5px 5px 5px #888888;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.rotate {
+	animation:spin 2s 1 ease-in;
+}
+@keyframes spin {
+    from {
+    	transform:rotate(0deg);
+    	opacity: 1;
+    }
+    to {
+    	opacity:0;
+    	transform:rotate(720deg);
+    	/*transform: scale(0.5,0.5);*/
+    }
+}
